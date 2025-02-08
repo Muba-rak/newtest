@@ -27,3 +27,12 @@ git remote add origin https://github.com/Muba-rak/newtest.git
 git push -u origin main
 
 
+
+working on an existing repo 
+make changes 
+
+git add .
+
+git commit -m 'changed content on homepage'
+
+git push
