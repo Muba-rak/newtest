@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", serif;
+}
+.container {
+  max-width: 1240px;
+  margin: 0px auto;
+  padding: 10px;
+}
+header {
+  background-color: navy;
+  position: sticky;
+  top: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+}
+
+.navlinks {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.navlinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px;
+}
+.navlinks a:hover {
+  color: red;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.btnlink button {
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  width: 120px;
+  height: 45px;
+  border: none;
+  border-radius: 7px;
+}
+
+.btnlink button:hover {
+  background-color: white;
+  color: navy;
+}
+.navlinks,
+.btnlink {
+  display: none;
+}
+.menu {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.menu div {
+  width: 80%;
+  height: 4px;
+  background-color: navy;
+  margin: 4px auto;
+}
+
+@media (min-width: 1024px) {
+  .navlinks,
+  .btnlink {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+}
+
+/* form */
+.main-form {
+  width: 100%;
+  height: 430px;
+  border-radius: 10px;
+  border-top: 7px solid blue;
+  margin: 40px auto;
+  max-width: 470px;
+  box-shadow: 3px 3px 7px 3px grey;
+  padding: 30px;
+}
+
+.main-form label,
+.main-form input,
+.main-form textarea,
+.main-form button {
+  display: block;
+}
+.main-form label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.main-form input,
+.main-form textarea,
+.main-form button {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.main-form input {
+  height: 35px;
+  border: 1px solid grey;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.main-form input::placeholder {
+  color: grey;
+  font-weight: 500;
+}
+
+.main-form textarea {
+  padding: 10px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+.main-form textarea::placeholder {
+  color: grey;
+  font-weight: 500;
+  font-size: 16px;
+}
+.main-form button {
+  height: 35px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+.whatsapp {
+  background-color: greenyellow;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+}
+
+.whatsapp img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+/* footer */
+
+footer {
+  background-color: navy;
+  color: white;
+}

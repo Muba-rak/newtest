@@ -1,0 +1,29 @@
+Version Control 
+
+git - done
+
+gitHub account - email, username, password 
+
+git --version
+configuration 
+
+git config --global user.email 'smauel@gmail.com'
+git config --global user.name 'username'
+
+
+terminal 
+repository (repo) - folder online 
+
+git init
+
+git add .
+
+git commit -m "fixing a bug"
+
+git branch -M main
+
+git remote add origin https://github.com/Muba-rak/newtest.git
+
+git push -u origin main
+
+

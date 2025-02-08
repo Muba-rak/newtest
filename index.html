@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TSA CONTACT</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="container">
+        <div class="logo">
+          <a href="#">
+            <img
+              src="https://techstudioacademy.com/_next/image?url=%2Fimages%2Flogo-white.png&w=128&q=75"
+              alt="tsa logo"
+            />
+          </a>
+        </div>
+        <div class="navlinks">
+          <a href="#">About Us</a>
+          <a href="#">Courses</a>
+          <a href="#">FAQ</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="btnlink">
+          <a href="#">
+            <button>Register</button>
+          </a>
+        </div>
+        <div class="menu">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </nav>
+    </header>
+    <!-- main form -->
+    <main class="container">
+      <!-- why techstudio section -->
+      <form class="main-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Full Name" />
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Email Address" />
+        <label for="message">Message Or Questions</label>
+        <textarea
+          id="message"
+          class="border border-black-200"
+          placeholder="Type Your Message, Questions or Inquiries Here"
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="whatsapp">
+        <img
+          src="https://w7.pngwing.com/pngs/872/916/png-transparent-whatsapp-logo-whatsapp-computer-icons-telephone-call-whatsapp-grass-internet-mobile-phones-thumbnail.png"
+          alt="whatsapp"
+        />
+      </div>
+    </main>
+
+    <footer class="py-[64px]">
+      <div class="container py-[64px]">
+        <div
+          class="top-footer flex flex-col gap-[30px] lg:flex-row justify-between"
+        >
+          <div>
+            <img
+              src="https://techstudioacademy.com/_next/image?url=%2Fimages%2Flogo-white.png&w=128&q=75"
+              alt="logo"
+            />
+            <p class="text-xs mt-6">
+              1, Ogunlesi Street, Awoyokun Bus Stop, <br />
+              Onipanu Lagos
+            </p>
+          </div>
+          <div>
+            <h3>Courses</h3>
+            <a href="#" class="block mb-[15px] text-xs">Product Design UI/UX</a>
+            <a href="#" class="block mb-[15px] text-xs"
+              >Fullstack Development</a
+            >
+            <a href="#" class="block mb-[15px] text-xs"
+              >Data Analysis With Machine Learning</a
+            >
+            <a href="#" class="block mb-[15px] text-xs">Frontend Engineering</a>
+            <a href="#" class="block mb-[15px] text-xs">Cybersecurity</a>
+          </div>
+          <div>
+            <h3>About Us</h3>
+            <a href="#" class="block mb-[15px] text-xs">Our Story</a>
+            <a href="#" class="block mb-[15px] text-xs">Contact Us</a>
+            <a href="#" class="block mb-[15px] text-xs">Careers</a>
+          </div>
+          <div>
+            <h3>Subscribe to our Newsletter</h3>
+            <form class="flex gap-0 w-full max-w-[500px] lg:w-[450px]">
+              <input
+                type="email"
+                placeholder="Enter Your Email Address"
+                class="border border-slate-200 h-[40px] p-2 w-[70%] rounded-l-lg"
+              />
+              <button
+                class="bg-blue-600 h-[40px] text-white font-semibold w-[30%] rounded-r-lg"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <hr class="my-8 block" />
+        <div
+          class="bottom-footer flex flex-col lg:flex-row items-center gap-[30px] lg:justify-between"
+        >
+          <div>
+            <p>© 2025 TechStudio Academy</p>
+          </div>
+          <div class="flex gap-[20px]">
+            <p>Terms and Policy</p>
+            <div>icons</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* show box */
+/* h v b s c */
+.shoe-box {
+  width: 370px;
+  height: 410px;
+  border-radius: 10px;
+  background-color: rgb(64, 62, 62);
+  margin: 100px auto;
+  box-shadow: 3px 3px 10px grey;
+}
+
+img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.content-container {
+  padding: 30px;
+  color: beige;
+}
+.content-container h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 800;
+}
+.content-container p {
+  margin-bottom: 7px;
+  font-size: 18px;
+}
+.btn-box {
+  display: flex;
+  align-items: end;
+  justify-content: start;
+}
+button {
+  width: 100px;
+  height: 40px;
+  background-color: aquamarine;
+  color: black;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
